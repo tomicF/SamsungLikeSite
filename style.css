@@ -1,246 +1,130 @@
+
 body{
-    background-color: white;
-    font-family: 'SamsungSharpSans',arial,sans-serif;
+    background-color: #f4f4f4;
+    font-family: 'Samsung Sans', sans-serif;
 }
-.finderLineFlex{
-    position: absolute;
-    display: flex;
-    text-align: center;
-    top: 30px;
-    gap: 5px;
-}
-.buttonFinderLineFlex{
-    border: 0px;
-    background-color: white;
-    white-space: nowrap;
-    font-size: 14px;
-}
-.finderLine{
-  margin: auto;
-  width: 70%;
-  padding: 10px;
-}
-
-.buttonFinderLineFlex {border-radius: 20px;}
-
-.buttonFinderLineFlex:hover {
-    background-color: black;
-    color: white;
-}
-.logo{
-    display: block;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    margin-right: 50px;
-}
-.buttonsRight{
-    display: flex;
-    text-align: center;
-    top: 30px;
-    gap: 5px;
-    white-space: nowrap;
-    margin-left: 150px;
-}
-
-.slideShow{
-    position: relative;
-    top: 200px;
-    scale: 1.5;
-}
-.slideShow{
-    font-family: 'SamsungSharpSans',arial,sans-serif;
-
-}
-.img1Text{
-    position: relative;
-    font-family: 'SamsungSharpSans',arial,sans-serif;
-    font-size: 48px;
-    white-space: nowrap;
-    top: 40px;
-    font-weight: 600;
-}
-
-.img1Text1{
-    position: absolute;
-    top: 125px;
-    right: -250px;
-    font-family: 'SamsungSharpSans',arial,sans-serif;
-    font-size: 15px;
-    white-space: nowrap;
-    font-weight: 300;
-}
-
-.buttonText1{
-  position: relative;
-  background-color: black;
-  color: white;
-  border: 0px;
-  font-size: 16px;
-  top: 140px;
-  cursor: pointer;
-}
-.buttonText1 {border-radius: 40px;}
-
-.img2Text{
-    position: relative;
-    font-family: 'SamsungSharpSans',arial,sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    top: -165px;
-    right: -100px;
-}
-
-.img2Text1{
-    position: relative;
-    font-family: 'SamsungSharpSans',arial,sans-serif;
-    font-size: 42px;
-    white-space: break-word;
+.samslidetext1{
+    font-size: 73px;
     font-weight: 700;
-    top: -45px;
-    right: -95px;
+    margin-top: -230px;
 }
-
-.img2Text2{
-    position: relative;
-    font-family: 'SamsungSharpSans',arial,sans-serif;
-    font-size: 12px;
-    white-space: break-word;
-    font-weight: 400;
-    top: 85px;
-    right: -90px;
-}
-
-.buttonText2{
-    position: relative;
-    background-color: black;
-    color: white;
-    border: 0px;
-    font-size: 16px;
-    top: 140px;
-    cursor: pointer;
-    right: -85px;
-}
-.buttonText2 {border-radius: 40px;}
-
-.img3Text{
-    position: relative;
-    font-family: 'SamsungSharpSans',arial,sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    top: -165px;
-    right: -100px;
-}
-
-.img3Text1{
-    position: relative;
-    font-family: 'SamsungSharpSans',arial,sans-serif;
-    font-size: 42px;
-    white-space: break-word;
+.samslidetext2{
+    font-size: 73px;
     font-weight: 700;
-    top: -85px;
-    right: -95px;
+    margin-top: 130px;
+    margin-right: 100px;
 }
+.samslidetext3{
+    font-size: 73px;
+    font-weight: 700;
+    margin-left: 100px;
+}
+.icon{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.icon{cursor:pointer}
 
-.img3Text2{
+.dotsAndArrows{
     position: relative;
-    font-family: 'SamsungSharpSans',arial,sans-serif;
-    font-size: 12px;
-    white-space: break-word;
-    font-weight: 400;
-    top: 10px;
-    right: -90px;
-}
-
-.buttonText3{
-    position: relative;
-    background-color: black;
-    color: white;
-    border: 0px;
-    font-size: 16px;
-    top: 65px;
-    cursor: pointer;
-    right: -85px;
-}
-.buttonText3 {border-radius: 40px;}
-
-.phoneHeaderText{
-   z-index: 100;
-   position: absolute;
-   top: 850px;
-   font-size: 42px;
-   font-weight: 700;
-   right: 570px;
-}
-.phoneHeader{
-  align-content: center;
-}
-.phones{
-    position: relative;
-    text-align: center;
     top: 450px;
-    max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
+    
 }
-.phone1{
+.dots{
     position: relative;
-    top: -500px;
+    top: 500px;
 }
-.phone1Text1{
-    position: relative;
-    top: -250px;
-    font-size: 48px;
+.film1{
+    width: 50%;
+    float: left;
+}
+.film2{
+    width: 50%;
+    float: right;
+}
+.filmsDiv{
+    position: absolute;
+    z-index: 0;
+}
+.filmText{
+    position: absolute;
+    font-size: 36px;
     font-weight: 700;
+    color: white;
 }
-.phone1Text2{
+.filmText1{
+    left: 20px;
+    width: 500px;
+    text-align: left;
+}
+.filmText2{
+    width: 500px;
+    right: 20px;
+    text-align: right;
+}
+.phonesHeader{
+    padding: 25px;
     position: relative;
-    top: 200px;
-    font-size: 62px;
+    text-align: left;
+    font-size: 32px;
     font-weight: 700;
+    bottom: -500px;
 }
-.phone1Text3{
-    position: relative;
-    top: 190px;
-    font-size: 22px;
-    font-weight: 300;
-}
-.phone1button1{
-    position: relative;
-    background-color: black;
-    color: white;
-    scale: 1.2;
-    border: 0px;
-    top: 200px;
-    cursor: pointer;
-}
-.phone1button1 {border-radius: 40px;}
-.phones1{
-    position: relative;
-    color: white;
-    top: 185px;
-}
-.button2{
-    color: black;
-    background-color: white;
-}
-.phones2{
-    position: relative;
-    top: -100px;
-}
-.phones3{
-    position: relative;
-    top: -365px;
-}
-
-.square{
-  height: 500px;
+.phonesGrid{
+  position: relative;
   width: 100%;
-  background-color: antiquewhite;
+  display: flex;
+  border: #333399;
+  bottom: -480px;
+  flex-wrap: nowrap;
+  border: none;
 }
 
-.pho{
-    position: relative;
-    top: 90px;
+  .button1:hover{
+    background-color: #333399;
+  }
+  .button2:hover{
+    background-color: #333399;
+  }
+  .button3:hover{
+    background-color: #333399;
+  }
+  .button4:hover{
+    background-color: #333399;
+  }
+  .button5:hover{
+    background-color: #333399;
+  }
+  .button6:hover{
+    background-color: #333399;
+  }
+  .button7:hover{
+    background-color: #333399;
+  }
+  .button8:hover{
+    background-color: #333399;
+  }
+
+  .button1{
+    border: none;  }
+  .button2{
+    border: none;  }
+  .button3{
+    border: none;  }
+  .button4{
+    border: none;  }
+  .button5{
+    border: none;  }
+  .button6{
+    border: none;  }
+  .button7{
+    border: none;  }
+  .button8{
+    border: none;  }
+
+.btText{
+  position: relative;
+  font-size: 28px;
+  font-weight: 700;
+  top: -50px;
 }
